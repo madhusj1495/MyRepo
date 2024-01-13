@@ -4,6 +4,7 @@ pipeline {
    stage ('Build') {
      steps {
       echo "this is to get the build with GIT"
+      echo "this is the test for multibranch pipeline"
 	  }
    
    }
