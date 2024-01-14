@@ -16,7 +16,7 @@ pipeline {
    stage ('Test') {
      steps {
       echo "this is to test the build with GIT"
-	     echo "himadhu-gituhub"
+	     echo "himadhu-gituhub-555"
       }
    }
  }
