@@ -11,6 +11,7 @@ pipeline {
    stage ('Deploy') {
      steps {
       echo "this is to deploy the build with GIT"
+      echo "this is using github webhook trigger"
       }
    }
    stage ('Test') {
